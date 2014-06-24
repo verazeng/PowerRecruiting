@@ -8,6 +8,16 @@
 
 #import <Foundation/Foundation.h>
 
+typedef enum : NSInteger {
+    InterviewProgressNotBegin = 0,
+    InterviewProgressGoing,
+    InterviewProgressEnded
+} InterviewProgress;
+
 @interface PRGroupInfo : NSObject
+
+@property (nonatomic) NSString *name;
+@property (nonatomic) NSArray *members;
+@property (nonatomic) InterviewProgress *progress;
 
 @end

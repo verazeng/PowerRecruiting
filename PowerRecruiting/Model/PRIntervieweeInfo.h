@@ -8,6 +8,19 @@
 
 #import <Foundation/Foundation.h>
 
+typedef enum {
+    male = 0,
+    female
+} Gender;
+
+@class PRCommentInfo;
+
 @interface PRIntervieweeInfo : NSObject
+
+@property (nonatomic) NSString *ID;
+@property (nonatomic) NSString *name;
+@property (nonatomic) NSString *age;
+@property (nonatomic) Gender *gender;
+@property (nonatomic) PRCommentInfo *comment;
 
 @end
