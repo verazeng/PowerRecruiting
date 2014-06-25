@@ -10,4 +10,8 @@
 
 @interface PRGroupManager : NSObject
 
+@property (nonatomic) NSArray *groupListArray;
+
++ (PRGroupManager *)shareIntance;
+
 @end

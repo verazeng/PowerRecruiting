@@ -1,0 +1,382 @@
+[
+    {
+        "groupName": "2014-6-23-A",
+        "progress": 0,
+        "members": [
+            {
+                "id": "18717316556",
+                "name": "zengheng",
+                "gender": 1,
+                "age": "1988-09-10",
+                "comment": {}
+            },
+            {
+                "id": "18817316556",
+                "name": "lijun",
+                "gender": 0,
+                "age": "1986-09-10",
+                "comment": {}
+            },
+            {
+                "id": "18617316556",
+                "name": "zhangqun",
+                "gender": 1,
+                "age": "1987-09-10",
+                "comment": {}
+            },
+            {
+                "id": "18917316556",
+                "name": "yibo",
+                "gender": 0,
+                "age": "1985-09-10",
+                "comment": {}
+            },
+            {
+                "id": "18517316556",
+                "name": "yaxuan",
+                "gender": 1,
+                "age": "1987-09-10",
+                "comment": {}
+            },
+            {
+                "id": "18417316556",
+                "name": "dengwu",
+                "gender": 0,
+                "age": "1984-09-10",
+                "comment": {}
+            },
+            {
+                "id": "18317316556",
+                "name": "loujia",
+                "gender": 1,
+                "age": "1991-09-10",
+                "comment": {}
+            },
+            {
+                "id": "18217316556",
+                "name": "suoqin",
+                "gender": 0,
+                "age": "1982-09-10",
+                "comment": {}
+            },
+            {
+                "id": "18217316556",
+                "name": "gaoli",
+                "gender": 1,
+                "age": "1982-09-10",
+                "comment": {}
+            },
+            {
+                "id": "18417316556",
+                "name": "yifei",
+                "gender": 1,
+                "age": "1984-09-10",
+                "comment": {}
+            }
+        ]
+    },
+    {
+        "groupName": "2014-6-23-B",
+        "progress": 1,
+        "members": [
+            {
+                "id": "18717316556",
+                "name": "zengheng",
+                "gender": 1,
+                "age": "1988-09-10",
+                "comment": {}
+            },
+            {
+                "id": "18817316556",
+                "name": "lijun",
+                "gender": 0,
+                "age": "1986-09-10",
+                "comment": {}
+            },
+            {
+                "id": "18617316556",
+                "name": "zhangqun",
+                "gender": 1,
+                "age": "1987-09-10",
+                "comment": {}
+            },
+            {
+                "id": "18917316556",
+                "name": "yibo",
+                "gender": 0,
+                "age": "1985-09-10",
+                "comment": {}
+            },
+            {
+                "id": "18517316556",
+                "name": "yaxuan",
+                "gender": 1,
+                "age": "1987-09-10",
+                "comment": {}
+            },
+            {
+                "id": "18417316556",
+                "name": "dengwu",
+                "gender": 0,
+                "age": "1984-09-10",
+                "comment": {}
+            },
+            {
+                "id": "18317316556",
+                "name": "loujia",
+                "gender": 1,
+                "age": "1991-09-10",
+                "comment": {}
+            },
+            {
+                "id": "18217316556",
+                "name": "suoqin",
+                "gender": 0,
+                "age": "1982-09-10",
+                "comment": {}
+            },
+            {
+                "id": "18217316556",
+                "name": "gaoli",
+                "gender": 1,
+                "age": "1982-09-10",
+                "comment": {}
+            },
+            {
+                "id": "18417316556",
+                "name": "yifei",
+                "gender": 1,
+                "age": "1984-09-10",
+                "comment": {}
+            }
+        ]
+    },
+    {
+        "groupName": "2014-6-23-C",
+        "progress": 2,
+        "members": [
+            {
+                "id": "18717316556",
+                "name": "zengheng",
+                "gender": 1,
+                "age": "1988-09-10",
+                "comment": {}
+            },
+            {
+                "id": "18817316556",
+                "name": "lijun",
+                "gender": 0,
+                "age": "1986-09-10",
+                "comment": {}
+            },
+            {
+                "id": "18617316556",
+                "name": "zhangqun",
+                "gender": 1,
+                "age": "1987-09-10",
+                "comment": {}
+            },
+            {
+                "id": "18917316556",
+                "name": "yibo",
+                "gender": 0,
+                "age": "1985-09-10",
+                "comment": {}
+            },
+            {
+                "id": "18517316556",
+                "name": "yaxuan",
+                "gender": 1,
+                "age": "1987-09-10",
+                "comment": {}
+            },
+            {
+                "id": "18417316556",
+                "name": "dengwu",
+                "gender": 0,
+                "age": "1984-09-10",
+                "comment": {}
+            },
+            {
+                "id": "18317316556",
+                "name": "loujia",
+                "gender": 1,
+                "age": "1991-09-10",
+                "comment": {}
+            },
+            {
+                "id": "18217316556",
+                "name": "suoqin",
+                "gender": 0,
+                "age": "1982-09-10",
+                "comment": {}
+            },
+            {
+                "id": "18217316556",
+                "name": "gaoli",
+                "gender": 1,
+                "age": "1982-09-10",
+                "comment": {}
+            },
+            {
+                "id": "18417316556",
+                "name": "yifei",
+                "gender": 1,
+                "age": "1984-09-10",
+                "comment": {}
+            }
+        ]
+    },
+    {
+        "groupName": "2014-6-23-D",
+        "progress": 0,
+        "members": [
+            {
+                "id": "18717316556",
+                "name": "zengheng",
+                "gender": 1,
+                "age": "1988-09-10",
+                "comment": {}
+            },
+            {
+                "id": "18817316556",
+                "name": "lijun",
+                "gender": 0,
+                "age": "1986-09-10",
+                "comment": {}
+            },
+            {
+                "id": "18617316556",
+                "name": "zhangqun",
+                "gender": 1,
+                "age": "1987-09-10",
+                "comment": {}
+            },
+            {
+                "id": "18917316556",
+                "name": "yibo",
+                "gender": 0,
+                "age": "1985-09-10",
+                "comment": {}
+            },
+            {
+                "id": "18517316556",
+                "name": "yaxuan",
+                "gender": 1,
+                "age": "1987-09-10",
+                "comment": {}
+            },
+            {
+                "id": "18417316556",
+                "name": "dengwu",
+                "gender": 0,
+                "age": "1984-09-10",
+                "comment": {}
+            },
+            {
+                "id": "18317316556",
+                "name": "loujia",
+                "gender": 1,
+                "age": "1991-09-10",
+                "comment": {}
+            },
+            {
+                "id": "18217316556",
+                "name": "suoqin",
+                "gender": 0,
+                "age": "1982-09-10",
+                "comment": {}
+            },
+            {
+                "id": "18217316556",
+                "name": "gaoli",
+                "gender": 1,
+                "age": "1982-09-10",
+                "comment": {}
+            },
+            {
+                "id": "18417316556",
+                "name": "yifei",
+                "gender": 1,
+                "age": "1984-09-10",
+                "comment": {}
+            }
+        ]
+    },
+    {
+        "groupName": "2014-6-23-E",
+        "progress": 1,
+        "members": [
+            {
+                "id": "18717316556",
+                "name": "zengheng",
+                "gender": 1,
+                "age": "1988-09-10",
+                "comment": {}
+            },
+            {
+                "id": "18817316556",
+                "name": "lijun",
+                "gender": 0,
+                "age": "1986-09-10",
+                "comment": {}
+            },
+            {
+                "id": "18617316556",
+                "name": "zhangqun",
+                "gender": 1,
+                "age": "1987-09-10",
+                "comment": {}
+            },
+            {
+                "id": "18917316556",
+                "name": "yibo",
+                "gender": 0,
+                "age": "1985-09-10",
+                "comment": {}
+            },
+            {
+                "id": "18517316556",
+                "name": "yaxuan",
+                "gender": 1,
+                "age": "1987-09-10",
+                "comment": {}
+            },
+            {
+                "id": "18417316556",
+                "name": "dengwu",
+                "gender": 0,
+                "age": "1984-09-10",
+                "comment": {}
+            },
+            {
+                "id": "18317316556",
+                "name": "loujia",
+                "gender": 1,
+                "age": "1991-09-10",
+                "comment": {}
+            },
+            {
+                "id": "18217316556",
+                "name": "suoqin",
+                "gender": 0,
+                "age": "1982-09-10",
+                "comment": {}
+            },
+            {
+                "id": "18217316556",
+                "name": "gaoli",
+                "gender": 1,
+                "age": "1982-09-10",
+                "comment": {}
+            },
+            {
+                "id": "18417316556",
+                "name": "yifei",
+                "gender": 1,
+                "age": "1984-09-10",
+                "comment": {}
+            }
+        ]
+    }
+]

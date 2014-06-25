@@ -16,7 +16,6 @@
 		D281EB4019540E6300C00945 /* PRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D281EB3F19540E6300C00945 /* PRAppDelegate.m */; };
 		D281EB4319540E6300C00945 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D281EB4119540E6300C00945 /* Main_iPhone.storyboard */; };
 		D281EB4619540E6300C00945 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D281EB4419540E6300C00945 /* Main_iPad.storyboard */; };
-		D281EB4919540E6300C00945 /* PRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D281EB4819540E6300C00945 /* PRViewController.m */; };
 		D281EB4B19540E6300C00945 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D281EB4A19540E6300C00945 /* Images.xcassets */; };
 		D281EB5219540E6300C00945 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D281EB5119540E6300C00945 /* XCTest.framework */; };
 		D281EB5319540E6300C00945 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D281EB2F19540E6300C00945 /* Foundation.framework */; };
@@ -27,6 +26,8 @@
 		D28669D11958178E002FA19B /* PRGroupInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D28669D01958178E002FA19B /* PRGroupInfo.m */; };
 		D28669D419581954002FA19B /* PRCommentInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D28669D319581954002FA19B /* PRCommentInfo.m */; };
 		D28669D719590A4B002FA19B /* PRGroupManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D28669D619590A4B002FA19B /* PRGroupManager.m */; };
+		D28669DA195AB615002FA19B /* testData.txt in Resources */ = {isa = PBXBuildFile; fileRef = D28669D9195AB615002FA19B /* testData.txt */; };
+		D28669E0195AD325002FA19B /* PRGroupListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D28669DF195AD325002FA19B /* PRGroupListViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,8 +54,6 @@
 		D281EB3F19540E6300C00945 /* PRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PRAppDelegate.m; sourceTree = "<group>"; };
 		D281EB4219540E6300C00945 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		D281EB4519540E6300C00945 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		D281EB4719540E6300C00945 /* PRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PRViewController.h; sourceTree = "<group>"; };
-		D281EB4819540E6300C00945 /* PRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PRViewController.m; sourceTree = "<group>"; };
 		D281EB4A19540E6300C00945 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D281EB5019540E6300C00945 /* PowerRecruitingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PowerRecruitingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D281EB5119540E6300C00945 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -69,6 +68,9 @@
 		D28669D319581954002FA19B /* PRCommentInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PRCommentInfo.m; path = Model/PRCommentInfo.m; sourceTree = "<group>"; };
 		D28669D519590A4B002FA19B /* PRGroupManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PRGroupManager.h; path = Model/PRGroupManager.h; sourceTree = "<group>"; };
 		D28669D619590A4B002FA19B /* PRGroupManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PRGroupManager.m; path = Model/PRGroupManager.m; sourceTree = "<group>"; };
+		D28669D9195AB615002FA19B /* testData.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = testData.txt; sourceTree = "<group>"; };
+		D28669DE195AD325002FA19B /* PRGroupListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRGroupListViewController.h; sourceTree = "<group>"; };
+		D28669DF195AD325002FA19B /* PRGroupListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRGroupListViewController.m; sourceTree = "<group>"; };
 		F4373CA76DE246E1AD19F453 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -132,14 +134,15 @@
 		D281EB3519540E6300C00945 /* PowerRecruiting */ = {
 			isa = PBXGroup;
 			children = (
+				D28669DE195AD325002FA19B /* PRGroupListViewController.h */,
+				D28669DF195AD325002FA19B /* PRGroupListViewController.m */,
 				D28669C8195816BB002FA19B /* Model */,
 				D281EB3E19540E6300C00945 /* PRAppDelegate.h */,
 				D281EB3F19540E6300C00945 /* PRAppDelegate.m */,
 				D281EB4119540E6300C00945 /* Main_iPhone.storyboard */,
 				D281EB4419540E6300C00945 /* Main_iPad.storyboard */,
-				D281EB4719540E6300C00945 /* PRViewController.h */,
-				D281EB4819540E6300C00945 /* PRViewController.m */,
 				D281EB4A19540E6300C00945 /* Images.xcassets */,
+				D28669D8195AB615002FA19B /* Resources */,
 				D281EB3619540E6300C00945 /* Supporting Files */,
 			);
 			path = PowerRecruiting;
@@ -187,6 +190,14 @@
 				D28669D619590A4B002FA19B /* PRGroupManager.m */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		D28669D8195AB615002FA19B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D28669D9195AB615002FA19B /* testData.txt */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +281,7 @@
 			files = (
 				D281EB4619540E6300C00945 /* Main_iPad.storyboard in Resources */,
 				D281EB4B19540E6300C00945 /* Images.xcassets in Resources */,
+				D28669DA195AB615002FA19B /* testData.txt in Resources */,
 				D281EB4319540E6300C00945 /* Main_iPhone.storyboard in Resources */,
 				D281EB3A19540E6300C00945 /* InfoPlist.strings in Resources */,
 			);
@@ -326,7 +338,7 @@
 				D281EB4019540E6300C00945 /* PRAppDelegate.m in Sources */,
 				D28669D719590A4B002FA19B /* PRGroupManager.m in Sources */,
 				D28669D11958178E002FA19B /* PRGroupInfo.m in Sources */,
-				D281EB4919540E6300C00945 /* PRViewController.m in Sources */,
+				D28669E0195AD325002FA19B /* PRGroupListViewController.m in Sources */,
 				D28669CE19581772002FA19B /* PRIntervieweeInfo.m in Sources */,
 				D281EB3C19540E6300C00945 /* main.m in Sources */,
 				D28669D419581954002FA19B /* PRCommentInfo.m in Sources */,

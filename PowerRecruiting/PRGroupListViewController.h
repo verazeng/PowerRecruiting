@@ -1,5 +1,5 @@
 //
-//  PRViewController.h
+//  PRGroupListViewController.h
 //  PowerRecruiting
 //
 //  Created by Heng Zeng on 6/20/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PRViewController : UIViewController
+@interface PRGroupListViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
 @end

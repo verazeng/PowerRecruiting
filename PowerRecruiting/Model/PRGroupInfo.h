@@ -18,6 +18,7 @@ typedef enum : NSInteger {
 
 @property (nonatomic) NSString *name;
 @property (nonatomic) NSArray *members;
-@property (nonatomic) InterviewProgress *progress;
+@property (nonatomic) InterviewProgress progress;
 
+- (NSString *)getProgressDescription;
 @end

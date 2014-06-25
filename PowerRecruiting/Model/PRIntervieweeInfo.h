@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-typedef enum {
+typedef enum : NSInteger {
     male = 0,
     female
 } Gender;
@@ -20,7 +20,7 @@ typedef enum {
 @property (nonatomic) NSString *ID;
 @property (nonatomic) NSString *name;
 @property (nonatomic) NSString *age;
-@property (nonatomic) Gender *gender;
+@property (nonatomic) Gender gender;
 @property (nonatomic) PRCommentInfo *comment;
 
 @end

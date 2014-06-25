@@ -10,4 +10,15 @@
 
 @implementation PRIntervieweeInfo
 
+- (NSString *)description
+{
+    NSMutableString *desc = [NSMutableString stringWithFormat:@"id:%@", _ID];
+    [desc appendFormat:@",name%@", _name];
+    [desc appendFormat:@",name:%ld", _gender];
+    [desc appendFormat:@",age:%@", _age];
+    [desc appendFormat:@",comment:%@", _comment];
+    
+    return desc;
+}
+
 @end
